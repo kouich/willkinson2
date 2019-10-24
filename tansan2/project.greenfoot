@@ -1,9 +1,19 @@
 #Greenfoot project file
+<<<<<<< HEAD
 class.a.image=bee.png
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=492
 editor.fx.0.y=409
+=======
+class.Letitbee.image=bee.png
+class.aiueo.image=house.png
+class.oishi.image=chips-1.png
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+>>>>>>> cdb263d5684d8aec9f32371d2c597ea129ad8966
 height=527
 package.numDependencies=0
 package.numTargets=4
@@ -22,7 +32,11 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
+<<<<<<< HEAD
 target1.name=a
+=======
+target1.name=Letitbee
+>>>>>>> cdb263d5684d8aec9f32371d2c597ea129ad8966
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
@@ -50,7 +64,12 @@ target4.width=80
 target4.x=0
 target4.y=0
 version=3.0.0
-width=974
+width=971
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=0
 yPosition=0
+=======
+xPosition=60
+yPosition=233
+>>>>>>> cdb263d5684d8aec9f32371d2c597ea129ad8966
