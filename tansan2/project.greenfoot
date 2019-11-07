@@ -1,13 +1,20 @@
 #Greenfoot project file
 class.Letitbee.image=bee.png
+class.MyWorld.image=stage.png
 class.a.image=bee.png
 class.aiueo.image=house.png
 class.oishi.image=chips-1.png
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=215
 editor.fx.0.y=77
 height=527
+=======
+editor.fx.0.x=149
+editor.fx.0.y=179
+height=540
+>>>>>>> 25422a24b27c646932008eb911ec6e1dd8de089e
 package.numDependencies=0
 package.numTargets=5
 project.charset=UTF-8
@@ -62,5 +69,10 @@ target5.y=0
 version=3.0.0
 width=971
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=542
 yPosition=148
+=======
+xPosition=904
+yPosition=187
+>>>>>>> 25422a24b27c646932008eb911ec6e1dd8de089e
