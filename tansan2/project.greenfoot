@@ -9,10 +9,17 @@ dependency1.to=oishi
 dependency1.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=3
 editor.fx.0.y=117
 height=1047
 package.numDependencies=1
+=======
+editor.fx.0.x=991
+editor.fx.0.y=213
+height=598
+package.numDependencies=0
+>>>>>>> a96ad08f06759242a07f4f83fe2564abe670dd3e
 package.numTargets=5
 project.charset=UTF-8
 publish.hasSource=false
@@ -66,5 +73,10 @@ target5.y=0
 version=3.0.0
 width=974
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=0
 yPosition=0
+=======
+xPosition=807
+yPosition=180
+>>>>>>> a96ad08f06759242a07f4f83fe2564abe670dd3e

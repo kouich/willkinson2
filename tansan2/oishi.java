@@ -19,7 +19,7 @@ public class oishi extends Actor
         
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
-        move(1);
+        move(100);
     }
     }    
 }
