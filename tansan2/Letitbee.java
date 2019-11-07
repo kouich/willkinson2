@@ -14,6 +14,7 @@ public class Letitbee extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+      setRotation(0);
+      move(100);
     }    
 }
