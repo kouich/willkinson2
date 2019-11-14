@@ -4,6 +4,7 @@ class.oishi.image=mimizu.png
 dependency1.from=MyWorld
 dependency1.to=oishi
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=543
@@ -11,6 +12,15 @@ editor.fx.0.y=233
 height=803
 package.numDependencies=1
 package.numTargets=2
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=598
+package.numDependencies=1
+package.numTargets=5
+>>>>>>> eef38ccce9535baa97750c52f33e6f3bf93676a4
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -42,5 +52,10 @@ target2.y=0
 version=3.0.0
 width=1214
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=445
 yPosition=81
+=======
+xPosition=807
+yPosition=180
+>>>>>>> eef38ccce9535baa97750c52f33e6f3bf93676a4
