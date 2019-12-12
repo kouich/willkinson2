@@ -19,10 +19,22 @@ public class oishi extends Actor
         //count++;
         }   
         
+        int x = getX();
+        int y = getY();
+        if( Greenfoot.isKeyDown( "left" ) ){
+          setLocation( x-1,y );
+         }
         if( Greenfoot.isKeyDown( "right" ) ){
-        setRotation(0);
-        move(100);
-    }
-    
+
+     
+         setLocation( x+1,y );
+        }
+        if( Greenfoot.isKeyDown( "down" ) ){
+          setLocation( x,y+1 );
+         }
+        if( Greenfoot.isKeyDown( "up" ) ){
+         setLocation( x,y-1 );
+        }
+
     }    
 }
