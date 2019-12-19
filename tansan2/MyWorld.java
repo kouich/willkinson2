@@ -17,6 +17,11 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        Actor esa = new esa();
         addObject( new oishi(), 300, 200 );
+        
+        addObject( esa, 500, 300 );
+        esa.getImage().scale( 50, 50);
+        
     }
 }
