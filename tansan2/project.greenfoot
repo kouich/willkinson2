@@ -14,25 +14,11 @@ dependency3.type=UsesDependency
 dependency4.from=oishi
 dependency4.to=esa
 dependency4.type=UsesDependency
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> ec6c52d7c357f51cfcd092b8ab2875e7080a7011
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-<<<<<<< HEAD
-=======
-height=1046
-=======
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=637
 editor.fx.0.y=94
->>>>>>> ec6c52d7c357f51cfcd092b8ab2875e7080a7011
 height=1047
->>>>>>> 06364666fe165b796db9049592572f29809bd063
 package.numDependencies=4
 package.numTargets=6
 project.charset=UTF-8
@@ -94,15 +80,5 @@ target6.y=0
 version=3.0.0
 width=980
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=844
-yPosition=5
-=======
-<<<<<<< HEAD
-xPosition=852
-yPosition=3
-=======
 xPosition=947
 yPosition=0
->>>>>>> 06364666fe165b796db9049592572f29809bd063
->>>>>>> ec6c52d7c357f51cfcd092b8ab2875e7080a7011
