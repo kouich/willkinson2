@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.Random;
 
 /**
  * Write a description of class MyWorld here.
@@ -8,20 +9,40 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
-    /**
-     * Constructor for objects of class MyWorld.
-     * 
-     */
+    int count=0;
+    
+    Random rnd = new Random();
+    int i = 0;
+    int xValue = 0;
+    int yValue = 0;
+    
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+
         Actor esa = new esa();
-        addObject( new oishi(), 300, 200 );
+        addObject( new oishi(), 500, 200 );
+        addObject( new oishi2(), 100, 200 );
         
         addObject( esa, 500, 300 );
         esa.getImage().scale( 50, 50);
+               
+        int score = 100;
         
+        for(i = 0;i < 10;i++)
+        {
+            xValue = rnd.nextInt(600);
+            yValue = rnd.nextInt(400);
+            addObject( new esa(), xValue, yValue );
+        }
+        
+        showText("score  "+ String.valueOf(score),400,10);
+
+
     }
+    
 }
+
+
+

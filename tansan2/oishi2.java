@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 
-public class oishi extends Actor
+public class oishi2 extends Actor
 {
     
     /**
@@ -25,16 +25,16 @@ public class oishi extends Actor
        
         int x = getX();
         int y = getY();
-        if( Greenfoot.isKeyDown( "left" ) ){
+        if( Greenfoot.isKeyDown( "a" ) ){
           setLocation( x-1,y );
          }
-        if( Greenfoot.isKeyDown( "right" ) ){
+        if( Greenfoot.isKeyDown( "d" ) ){
          setLocation( x+1,y );
         }
-        if( Greenfoot.isKeyDown( "down" ) ){
+        if( Greenfoot.isKeyDown( "s" ) ){
           setLocation( x,y+1 );
          }
-        if( Greenfoot.isKeyDown( "up" ) ){
+        if( Greenfoot.isKeyDown( "w" ) ){
          setLocation( x,y-1 );
         }
 
