@@ -10,9 +10,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MyWorld extends World
 {
     
-    oishi mimizu = new oishi();
-     public int count=0;
-    public  int Counter(int score){
+  //  oishi mimizu = new oishi();
+    // public int count=0;
+    public int Counter(int score){
         showText("score  "+ String.valueOf(score),400,10);
         return score;
     }

@@ -15,17 +15,16 @@ public class oishi extends Actor
      */
 
     public int a = 0;
-    public int count = 0;
+    public static int count = 0;
 
-
+    
     public void act() 
     {   
         
         Actor actor = getOneObjectAtOffset( 0, 0, esa.class );
         if( actor != null ){
-
                     count++;
-                   // MyWorld.Counter(count);
+                 // MyWorld.Counter(count);
 
         }   
        
