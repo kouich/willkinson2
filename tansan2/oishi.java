@@ -13,15 +13,20 @@ public class oishi extends Actor
      * Act - do whatever the oishi wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+
     public int a = 0;
     public int count = 0;
+
+
     public void act() 
     {   
         
         Actor actor = getOneObjectAtOffset( 0, 0, esa.class );
         if( actor != null ){
+
                     count++;
                    // MyWorld.Counter(count);
+
         }   
        
         int x = getX();
@@ -43,10 +48,9 @@ public class oishi extends Actor
              a+=30;
              setRotation(a);
         }
+
     }    
-    
-    
-    
-    
-    
-}
+   
+    }    
+
+
