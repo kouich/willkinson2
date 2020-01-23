@@ -10,51 +10,36 @@ import java.util.Random;
 
 public class MyWorld extends World
 {
-
-    int count=0;
-    
-    Random rnd = new Random();
-    int i = 0;
-    int xValue = 0;
-    int yValue = 0;
-
-    
-  //  oishi mimizu = new oishi();
-    // public int count=0;
-    public int Counter(int score){
-        showText("score  "+ String.valueOf(score),400,10);
-        return score;
-    }
-   
+    oishi o1;
+    oishi2 o2;
     
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
 
-
-        Actor esa = new esa();
-        addObject( new oishi(), 500, 200 );
-        addObject( new oishi2(), 100, 200 );
+        o1 = new oishi();
+        o2 = new oishi2();
+        addObject( o1, 500, 200 );
+        addObject( o2, 100, 200 );
         
-        addObject( esa, 500, 300 );
-        esa.getImage().scale( 50, 50);
-               
-        int score = 100;
-        
-        for(i = 0;i < 10;i++)
+        Random rnd = new Random();
+        for( int i = 0;i < 10;i++)
         {
-            xValue = rnd.nextInt(600);
-            yValue = rnd.nextInt(400);
-            addObject( new esa(), xValue, yValue );
+            int xValue = rnd.nextInt(600);
+            int yValue = rnd.nextInt(400);
+            Actor e = new esa();
+            e.getImage().scale( 50, 50);
+            addObject( e, xValue, yValue );
         }
-        
+    }
+    
+    public void act()
+    {
+        int score = o1.ReturnScore();
+           int score2 = o2.ReturnScore2();
         showText("score  "+ String.valueOf(score),400,10);
-
-        //int score = 0;
-        //showText("score  "+ String.valueOf(score),400,10);
-
-
+          showText("score  "+ String.valueOf(score2),200,10);
     }
     
 }

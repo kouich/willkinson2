@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class esa extends Actor
 {
-    int count = 0;
+   
     
     /**
      * Act - do whatever the esa wants to do. This method is called whenever
@@ -16,9 +16,9 @@ public class esa extends Actor
      */
     public void act() 
     {   
-        getWorld().showText("Score = "+String.valueOf(count),400,10);
+       // getWorld().showText("Score = "+String.valueOf(count),400,10);
         
-        
+        /*
         Actor actor = getOneObjectAtOffset( 0, 0, oishi.class );
           Actor actor2 = getOneObjectAtOffset( 0, 0, oishi2.class );
 
@@ -27,10 +27,10 @@ public class esa extends Actor
         {
             getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter                
         }
+        */
+
         
-   
-        
-        
+       
 
     }    
 }
