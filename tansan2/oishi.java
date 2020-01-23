@@ -44,7 +44,7 @@ public class oishi extends Actor
         if( Greenfoot.isKeyDown( "up" ) ){
          setLocation( x,y-10 );
         }
-        if (Greenfoot.isKeyDown( "space" ) ){
+        if (Greenfoot.isKeyDown( "M" ) ){
              a+=30;
              setRotation(a);
         }

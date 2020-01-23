@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class oishi2 extends Actor
 {
-    
+    public int b = 0;
     /**
      * Act - do whatever the oishi wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -26,16 +26,20 @@ public class oishi2 extends Actor
         int x = getX();
         int y = getY();
         if( Greenfoot.isKeyDown( "a" ) ){
-          setLocation( x-1,y );
+          setLocation( x-10,y );
          }
         if( Greenfoot.isKeyDown( "d" ) ){
-         setLocation( x+1,y );
+         setLocation( x+10,y );
         }
         if( Greenfoot.isKeyDown( "s" ) ){
-          setLocation( x,y+1 );
+          setLocation( x,y+10 );
          }
         if( Greenfoot.isKeyDown( "w" ) ){
-         setLocation( x,y-1 );
+         setLocation( x,y-10 );
+        }
+        if (Greenfoot.isKeyDown( "Z" ) ){
+            b+=30;
+            setRotation(b);
         }
 
     }    

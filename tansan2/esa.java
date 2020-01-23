@@ -16,34 +16,21 @@ public class esa extends Actor
      */
     public void act() 
     {   
-        getWorld().showText("Score = "+String.valueOf(count),400,10);
+       // getWorld().showText("Score = "+String.valueOf(count),400,10);
         
         
         Actor actor = getOneObjectAtOffset( 0, 0, oishi.class );
+        Actor a = getOneObjectAtOffset( 0, 0, oishi2.class );
 
-        if( actor != null )
+        if( actor != null || a != null)
         {
-            getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter                
+            getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter   
         }
         
-        Actor actor2 = getOneObjectAtOffset( 0, 0, oishi2.class );
-
-        if( actor2 != null )
+        /*Actor a = getOneObjectAtOffset( 0, 0, oishi2.class );
+        if( a != null )
         {
             getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter                
-        }
-
-        if( actor != null ){
-
-          getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter
-  
-
-            getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter
-            count++;
-
-        } 
-        
-        
-
+        }*/
     }    
 }
