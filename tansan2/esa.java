@@ -20,16 +20,17 @@ public class esa extends Actor
         
         
         Actor actor = getOneObjectAtOffset( 0, 0, oishi.class );
-        if( actor != null ){
+          Actor actor2 = getOneObjectAtOffset( 0, 0, oishi2.class );
 
-          getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter
-  
 
-            getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter
-            count++;
-
-        } 
+        if( actor != null || actor2 != null )
+        {
+            getWorld().removeObject( this ); // getWorld() は World オブジェクトの getter                
+        }
+        
+   
         
         
+
     }    
 }
