@@ -8,15 +8,18 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class aiueo extends Actor
 {
+    
+    public int score_add = 0;
     /**
      * Act - do whatever the aiueo wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public void Score() 
     {
-            if( Greenfoot.isKeyDown( "left" ) ){
-            setRotation(0);
-            move(-1);
-}// Add your action code here.
     }    
+    
+    public int ReturnScore()
+    {
+        return score_add;
+    }
 }
