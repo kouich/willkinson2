@@ -19,27 +19,20 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-<<<<<<< HEAD
+
         addObject( new oishi(), 300, 200 );
          
-        int score = 100;
-        showText("score = "+ score,300,10);
-          
-=======
-            addObject( new oishi(), 300, 200 );
->>>>>>> 06364666fe165b796db9049592572f29809bd063
+        //int score = 100;
+        //showText("score = "+ score,300,10);
+           addObject( new oishi(), 300, 200 );
+         
            addObject( new esa(), 550, 200 );
            addObject( new esa(), 50, 200 );
            addObject( new esa(), 330, 550 );
            addObject( new esa(), 300, 25 );
            addObject( new esa(), 200, 100 );
-<<<<<<< HEAD
-=======
+        
 
-        int score = 100;
-        showText("score  "+ String.valueOf(score),400,10);
-
->>>>>>> 06364666fe165b796db9049592572f29809bd063
     }
     
 }
