@@ -21,11 +21,15 @@ public class oishi extends Actor
     
     public void act() 
     {   
+<<<<<<< HEAD
 
         int x = getX();
         int y = getY();
         Actor actor = getOneObjectAtOffset(0, 0, esa.class );
 
+=======
+       
+>>>>>>> 680b4f439a2d9bbc5f0c4e9f1b46e7b7cd8aea14
         
         //Actor actor = getOneIntersectingObject( esa.class );
 
@@ -33,6 +37,16 @@ public class oishi extends Actor
            score_add = score_add + 1;
            getWorld().removeObject( actor );
         }   
+<<<<<<< HEAD
+=======
+        
+        
+       
+        int x = getX();
+        int y = getY();
+>>>>>>> 680b4f439a2d9bbc5f0c4e9f1b46e7b7cd8aea14
+        
+         
         
         if( Greenfoot.isKeyDown( "left" ) ){
           setLocation( x-10,y );

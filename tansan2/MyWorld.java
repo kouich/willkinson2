@@ -12,12 +12,20 @@ public class MyWorld extends World
 {
     oishi o1;
     oishi2 o2;
+<<<<<<< HEAD
     int count;
     int d = 10;
+=======
+    
+    GreenfootSound music = new GreenfootSound("bg1.mp3");
+    
+>>>>>>> 680b4f439a2d9bbc5f0c4e9f1b46e7b7cd8aea14
     public MyWorld()
     {    
+       
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+         music.playLoop();
 
 
         addObject( new oishi(), 300, 200 );
@@ -34,6 +42,8 @@ public class MyWorld extends World
 
         o1 = new oishi();
         o2 = new oishi2();
+        o1.getImage().scale( 100, 100);
+                o2.getImage().scale( 100, 100);
         addObject( o1, 500, 200 );
         addObject( o2, 100, 200 );
         
@@ -70,6 +80,7 @@ public class MyWorld extends World
         }
     }
     
+   // public void 
     public void act()
     {
         int score = o1.ReturnScore();
@@ -78,8 +89,12 @@ public class MyWorld extends World
         int b = score2;
         showText("score  "+ String.valueOf(score),400,10);
           showText("score  "+ String.valueOf(score2),200,10);
+<<<<<<< HEAD
         
         sei(a,b,count);
+=======
+          
+>>>>>>> 680b4f439a2d9bbc5f0c4e9f1b46e7b7cd8aea14
         
     }
     
