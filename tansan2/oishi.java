@@ -22,15 +22,20 @@ public class oishi extends Actor
     
     public void act() 
     {   
+       
         
         Actor actor = getOneIntersectingObject( esa.class );
         if( actor != null ){
            score_add = score_add + 1;
            getWorld().removeObject( actor );
         }   
+        
+        
        
         int x = getX();
         int y = getY();
+        
+         
         
         if( Greenfoot.isKeyDown( "left" ) ){
           setLocation( x-10,y );
