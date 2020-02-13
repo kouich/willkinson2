@@ -12,14 +12,14 @@ public class MyWorld extends World
 {
     oishi o1;
     oishi2 o2;
-<<<<<<< HEAD
+
     int count;
     int d = 10;
-=======
+
     
     GreenfootSound music = new GreenfootSound("bg1.mp3");
     
->>>>>>> 680b4f439a2d9bbc5f0c4e9f1b46e7b7cd8aea14
+
     public MyWorld()
     {    
        
@@ -28,7 +28,7 @@ public class MyWorld extends World
          music.playLoop();
 
 
-        addObject( new oishi(), 300, 200 );
+        //addObject( new oishi(), 300, 200 );
          
         //int score = 100;
         //showText("score = "+ score,300,10);
@@ -89,12 +89,10 @@ public class MyWorld extends World
         int b = score2;
         showText("score  "+ String.valueOf(score),400,10);
           showText("score  "+ String.valueOf(score2),200,10);
-<<<<<<< HEAD
-        
+
         sei(a,b,count);
-=======
-          
->>>>>>> 680b4f439a2d9bbc5f0c4e9f1b46e7b7cd8aea14
+
+
         
     }
     
